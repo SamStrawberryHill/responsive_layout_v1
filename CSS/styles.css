@@ -1,0 +1,89 @@
+/* Global Layout Set-up */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Bangers', sans-serif;
+  color: #000;
+  background: #ededed;
+}
+/* Link Styles */
+
+a {
+  text-decoration: none;
+  color: #000;
+  background-color: #fff;
+}
+a:hover {
+  color: #480000;
+}
+a:visited {
+  color: #000;
+  background-color: #fff;
+}
+
+nav ul li a {
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding- top: .5em;
+  padding-bottom: .5em;
+  width: 100%;
+
+}
+nav li {
+  list-style: none;
+}
+.main-nav,
+.nav {
+  list-style: none;
+  margin: 0 auto;
+  font-size: x-large;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+
+footer ul li {
+  display: inline-block;
+  clear: both;
+
+}
