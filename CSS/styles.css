@@ -101,10 +101,9 @@ a:visited {
   background: #ccc;
 }
 /* Portfolio Images */
-.portfolio-image1 {
-  max-width: 100%
-  margin: 0 auto;
-  padding: 0 5%;
+.portfolio-image {
+  max-width: 90%
+
 }
 
 /* Footer Styles */
