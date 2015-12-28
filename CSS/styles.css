@@ -14,6 +14,9 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #000;
 }
+p {
+  color: #2F4F4F;
+}
 .name {
   align-self: center;
   text-decoration: none;
@@ -44,6 +47,7 @@ body {
   padding-top: .5em;
   padding-bottom: 3em;
   margin: 0 auto;
+  color: #2F4F4F;
 }
 .main-header,
 .main-nav {
@@ -100,7 +104,14 @@ a:visited {
   color: #1c1c1c;
   background: #ccc;
 }
+.bold {
+  font-weight: bolder;
+}
 /* Portfolio Images */
+#portfolio {
+  background: #fff;
+
+}
 .portfolio-image {
   max-width: 90%
 
