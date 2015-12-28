@@ -2,7 +2,7 @@
 * {
   box-sizing: border-box;
 }
-/*////*/
+/*//Base Layout Styles//*/
 ul {
   list-style: none;
   margin-left: -40px;
@@ -79,6 +79,7 @@ h1 {
 
 #portfolio {
   background: #fff;
+  padding-bottom: 1em;
 }
 .portfolio-image {
   max-width: 90%
@@ -88,6 +89,7 @@ h1 {
 .main-nav a {
   display: block;
   text-decoration: none;
+  text-align: center;
   max-width: 100%;
   background: white;
   padding: .5em;
@@ -141,47 +143,55 @@ hr {
 }
 /****************** Media Queries ********/
 
+/*
 @media only screen and (min-width: 480px) {
+  .main-nav {
 
-.main-nav a {
-    float: left;
-    width: 30%;
-    margin: 0 0 0 5%;
-    padding: 25px 1%;
-    margin-bottom: 0;
-  }
+  }*/
 
-.main-nav li:first-child a {
-    margin-left: 0;
-  }
-
-.main-nav li:last-child a {
-    margin-right: 0;
-  }
-
-}
-@media only screen and (min-width: 769px),
+@media only screen and (min-width: 768px),
        only screen and (min-width: 700px) and (orientation: landscape) {
 
-.main-nav {
-    float: right;
-    width: 60%;
-  }
-.main-nav a {
-    padding: 15px 1%;
-  }
-.rectangle {
-  float: right;
 
-}
-.wrapper {
-  width: 70%;
-  margin: 0 auto;
-  max-width: 1000px;
-}
-}
-.container {
-  min-height: calc(100vh-17px);
-}
-@media (min-width: 1025px) {
-}
+@media only screen and (min-width: 1024px) {
+
+/* Main Header*/
+  .main-nav {
+    display:flex;
+    flex-direction: row-reverse;
+  }
+  .main-nav li {
+    justify-content:space-between;
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+  .name {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+  }
+  .rectangle {
+    margin: 0 auto;
+    width: 40%
+  }
+  .tag-location {
+    bottom: 5px;
+    left: 10px;
+  }
+  #portfolio {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .first-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .second-row {
+    display: flex;
+    flex-direction: row;
+  }
+  #portfolio img {
+    width: 20%;
+    margin: 2.5%;
+    flex-grow: 5;
+  }
