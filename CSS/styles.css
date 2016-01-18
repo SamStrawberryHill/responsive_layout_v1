@@ -176,3 +176,13 @@ hr {
 .profile-container {
   display: inline-block;
 }
+.first-row {
+  max-width: 30%;
+}
+.second-row {
+  max-width: 30%
+}
+#portfolio h3 {
+  text-align: center;
+  padding-top: 5em;
+}
