@@ -73,7 +73,7 @@ h1 {
   padding-top: 1em;
 }
 
-#portfolio {
+.portfolio {
   background: #fff;
   padding-bottom: 1em;
 }
@@ -176,13 +176,24 @@ hr {
 .profile-container {
   display: inline-block;
 }
-.first-row {
-  max-width: 30%;
+.portfolio {
+  max-width: 95%;
+  margin: 0 auto;
 }
-.second-row {
-  max-width: 30%
+.first-row li,
+.second-row li{
+  max-width: 33%;
+  float: left;
+  padding: 2.5px;
+  margin: 0 auto;
 }
-#portfolio h3 {
+.portfolio h3 {
   text-align: center;
-  padding-top: 5em;
+  padding-top: 3em;
+}
+/* Clear Fix*/
+.group::after {
+  content: " ";
+  display: table;
+  clear: both;
 }
