@@ -43,17 +43,13 @@ p {
   border-radius: 50%;
   z-index: 5;
 }
-.tag-location {
+.intro {
   padding-top: .5em;
   padding-bottom: 3em;
   margin: 0 auto;
   color: #2F4F4F;
 }
-.main-header,
-.main-nav {
-  display: flex;
-  flex-direction: column;
-}
+
 /* Link Styles */
 
 a:hover {
@@ -143,55 +139,40 @@ hr {
 }
 /****************** Media Queries ********/
 
-/*
-@media only screen and (min-width: 480px) {
-  .main-nav {
-
-  }*/
-
 @media only screen and (min-width: 768px),
        only screen and (min-width: 700px) and (orientation: landscape) {
+         .main-nav a {
+           background: none;
+         }
 
 
 @media only screen and (min-width: 1024px) {
 
-/* Main Header*/
-  .main-nav {
-    display:flex;
-    flex-direction: row-reverse;
-  }
-  .main-nav li {
-    justify-content:space-between;
-    margin-right: 1em;
-    margin-left: 1em;
-  }
-  .name {
-    display: flex;
-    flex-direction: row;
-    align-self: flex-start;
-  }
-  .rectangle {
-    margin: 0 auto;
-    width: 40%
-  }
-  .tag-location {
-    bottom: 5px;
-    left: 10px;
-  }
-  #portfolio {
-    margin: 0 auto;
-    width: 90%;
-  }
-  .first-row {
-    display: flex;
-    flex-direction: row;
-  }
-  .second-row {
-    display: flex;
-    flex-direction: row;
-  }
-  #portfolio img {
-    width: 20%;
-    margin: 2.5%;
-    flex-grow: 5;
-  }
+.name {
+  float: left;
+  margin: 16px 16px 16px 0px;
+  padding: 0;
+}
+.main-nav {
+  float: right;
+}
+.main-nav li {
+  display: inline-block;
+}
+.intro {
+  float: left;
+  display: inline-block;
+  width: 60%;
+  margin: 2em auto;
+  padding-top: 4em;
+  padding-right: 2em;
+  text-align: left;
+}
+.rectangle {
+  float: right;
+  display: inline-block;
+  width: 40%;
+}
+.profile-container {
+  display: inline-block;
+}
