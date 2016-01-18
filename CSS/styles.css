@@ -187,6 +187,19 @@ hr {
   padding: 2.5px;
   margin: 0 auto;
 }
+.first-row p,
+.second-row p {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  text-align: center;
+}
+.first-row ul {
+  margin-top: 1em;
+}
+.second-row ul li {
+  margin-top: 1em;
+}
+
 .portfolio h3 {
   text-align: center;
   padding-top: 3em;
