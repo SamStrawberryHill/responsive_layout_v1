@@ -162,11 +162,13 @@ hr {
 .intro {
   float: left;
   display: inline-block;
-  width: 60%;
-  margin: 2em auto;
-  padding-top: 4em;
+  width: 35%;
+  margin: 0 auto;
+  /*padding-top: 4em;
   padding-right: 2em;
+  padding-left: 3em;*/
   text-align: left;
+  font-size: 25px;
 }
 .rectangle {
   float: right;
@@ -177,8 +179,8 @@ hr {
   display: inline-block;
 }
 .portfolio {
-  max-width: 95%;
   margin: 0 auto;
+  width: 90%;
 }
 .first-row li,
 .second-row li{
@@ -204,7 +206,12 @@ hr {
   text-align: center;
   padding-top: 3em;
 }
-/* Clear Fix*/
+#contact {
+  margin: 0 auto;
+  width: 30%;
+  padding-bottom: 2em;
+}
+/*** Clear Fix ***/
 .group::after {
   content: " ";
   display: table;
