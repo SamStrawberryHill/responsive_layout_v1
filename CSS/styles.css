@@ -137,15 +137,19 @@ hr {
   padding-top: 1em;
   padding-bottom: 3em;
 }
-/****************** Media Queries ********/
 
+/****************** Media Queries ********/
+@media screen and (max-width: 320px) {
+.footer-nav li {
+  display: none;
+  visibility: hidden;
+}
+}
 @media only screen and (min-width: 768px),
        only screen and (min-width: 700px) and (orientation: landscape) {
-         .main-nav a {
-           background: none;
-         }
-
-
+.main-nav a {
+   background: none;
+  }
 @media only screen and (min-width: 1024px) {
 
 .name {
@@ -212,6 +216,24 @@ hr {
   margin: 0 auto;
   width: 30%;
   padding-bottom: 2em;
+}
+/*** Footer Navigation ***/
+#footer-right p {
+  display: none;
+  visibility: hidden;
+}
+#footer-left li {
+  padding-left: 3em;
+  margin: 0 auto;
+  font-weight: bolder;
+}
+.footer-nav li {
+  display: inline-block;
+  float: right;
+  padding-right: 3em;
+  padding-left: 1em;
+  margin: 0 auto;
+  font-weight: bolder;
 }
 /*** Clear Fix ***/
 .group::after {
