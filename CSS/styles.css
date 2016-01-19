@@ -159,24 +159,26 @@ hr {
 .main-nav li {
   display: inline-block;
 }
+.profile-container {
+  display: inline-block;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 2em;
+}
 .intro {
   float: left;
   display: inline-block;
-  width: 35%;
+  width: 60%;
   margin: 0 auto;
-  /*padding-top: 4em;
-  padding-right: 2em;
-  padding-left: 3em;*/
   text-align: left;
-  font-size: 25px;
+  font-size: 23px;
+  padding-top: 2em;
+  padding-right: 1em;
 }
 .rectangle {
   float: right;
   display: inline-block;
   width: 40%;
-}
-.profile-container {
-  display: inline-block;
 }
 .portfolio {
   margin: 0 auto;
