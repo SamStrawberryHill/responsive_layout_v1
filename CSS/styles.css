@@ -73,13 +73,15 @@ a:visited {
 h1 {
   padding-top: 1em;
 }
-
+.portfolio h3 {
+  padding-top: 2em;
+}
 .portfolio {
   background: #fff;
   padding-bottom: 1em;
 }
 .portfolio-image {
-  max-width: 90%
+  max-width: 100%
 }
 /*** Navigation ***/
 
@@ -102,8 +104,10 @@ h1 {
     background: #ccc;
 }
 /*** Contact ***/
-
 #contact {
+  margin: 0 auto;
+  width: 80%;
+  padding-bottom: 2em;
   padding-top: 1em;
 }
 #contact a {
@@ -189,13 +193,17 @@ hr {
   padding-bottom: 2em;
   font-weight: bolder;
 }
+.portfolio {
+  padding-left: 1em;
+  padding-right: 1em;
+}
 .first-row li,
 .second-row li{
-  max-width: 49.5%;
+  max-width: 50%;
   float: left;
-  padding-left: .01em;
-  padding-right: .01em;
   margin: 0 auto;
+  padding-left: .5em;
+  padding-right: .5em;
 }
 .first-row p,
 .second-row p {
@@ -285,7 +293,7 @@ hr {
 .second-row li{
   max-width: 33%;
   float: left;
-  padding: 2.5px;
+  padding: 1em;
   margin: 0 auto;
 }
 .first-row p,
@@ -295,7 +303,7 @@ hr {
   text-align: center;
 }
 .first-row ul {
-  margin-top: 1em;
+  margin-top: .5em;
 }
 .second-row ul li {
   margin-top: 1em;
