@@ -176,7 +176,7 @@ hr {
   margin: 0 auto;
   text-align: left;
   font-size: 23px;
-  padding-top: 2em;
+  padding-top: 3em;
   padding-right: 1em;
 }
 .rectangle {
@@ -217,20 +217,25 @@ hr {
   width: 30%;
   padding-bottom: 2em;
 }
+hr {
+  width: 85%;
+}
 /*** Footer Navigation ***/
 #footer-right p {
   display: none;
   visibility: hidden;
 }
 #footer-left li {
-  padding-left: 3em;
+  padding-left: 6em;
   margin: 0 auto;
   font-weight: bolder;
+}
+.footer-nav li:first-child {
+  padding-right: 6em;
 }
 .footer-nav li {
   display: inline-block;
   float: right;
-  padding-right: 3em;
   padding-left: 1em;
   margin: 0 auto;
   font-weight: bolder;
