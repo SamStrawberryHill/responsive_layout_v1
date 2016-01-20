@@ -142,7 +142,9 @@ hr {
   padding-top: 1em;
   padding-bottom: 3em;
 }
-
+#footer-right li a {
+  text-decoration: none;
+}
 /****************** Media Queries ********/
 @media screen and (max-width: 320px) {
 /*** Footer ***/
@@ -222,7 +224,7 @@ hr {
 hr {
   width: 90%;
 }
-#footer-right p {
+#footer-right li a {
   display: none;
   visibility: hidden;
 }
