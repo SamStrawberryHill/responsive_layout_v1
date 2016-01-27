@@ -224,7 +224,7 @@ hr {
 hr {
   width: 90%;
 }
-#footer-right li a {
+#back-to-top {
   display: none;
   visibility: hidden;
 }
@@ -242,6 +242,7 @@ hr {
   padding-left: 1em;
   margin: 0 auto;
   font-weight: bolder;
+  color: 000;
 }
 /*** Clear Fix ***/
 .group::after {
