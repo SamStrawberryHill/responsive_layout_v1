@@ -17,13 +17,15 @@ body {
 }
 p {
   color: #2F4F4F;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 /*** Profile ***/
 .name {
   align-self: center;
   text-decoration: none;
   color: #000;
-  margin-top: 3em;
+  margin-top: .5em;
   text-align: center;
   background-color: #ededed;
 }
@@ -31,7 +33,7 @@ p {
   background: #A3A3A3;
   padding-top: 1em;
   padding-bottom: .9em;
-  width: 70%;
+  width: 90%;
   display: block;
   z-index: 2;
   margin: 2em auto;
@@ -70,18 +72,16 @@ a:visited {
 }
 /*** Portfolio ***/
 
-h1 {
-  padding-top: 1em;
-}
 .portfolio h3 {
   padding-top: 2em;
+  padding-bottom: 2em;
 }
 .portfolio {
   background: #fff;
   padding-bottom: 1em;
 }
 .portfolio-image {
-  max-width: 100%
+  max-width: 90%
 }
 /*** Navigation ***/
 
@@ -132,18 +132,19 @@ hr {
 }
 #footer-left {
   float: left;
-  padding-left: 1em;
+  padding-left: .75em;
   padding-top: 1em;
   padding-bottom: 3em;
 }
 #footer-right {
   float: right;
-  padding-right: 3em;
+  padding-right: 1em;
   padding-top: 1em;
   padding-bottom: 3em;
 }
 #footer-right li a {
   text-decoration: none;
+  color: #000;
 }
 /****************** Media Queries ********/
 @media screen and (max-width: 320px) {
@@ -191,7 +192,7 @@ hr {
 .portfolio h3 {
   text-align: center;
   padding-top: 3em;
-  padding-bottom: 2em;
+  padding-bottom: 3em;
   font-weight: bolder;
 }
 .portfolio {
@@ -213,10 +214,13 @@ hr {
   padding-bottom: 2em;
   text-align: center;
 }
+.portfolio-list {
+  margin-top: -2em;
+}
 /*** Contact ***/
 #contact {
   margin: 0 auto;
-  width: 70%;
+  width: 55%;
   padding-bottom: 2em;
 }
 
@@ -229,9 +233,12 @@ hr {
   visibility: hidden;
 }
 #footer-left li {
-  padding-left: 2em;
+  padding-left: 1.25em;
   margin: 0 auto;
   font-weight: bolder;
+}
+#footer-right {
+  padding-right: 2.5em;
 }
 .footer-nav li {
   display: inline-block;
@@ -302,20 +309,17 @@ hr {
   padding-right: 1.5em;
   text-align: center;
 }
-.first-row ul {
-  margin-top: .5em;
-}
-.second-row ul li {
-  margin-top: 1em;
-}
 .portfolio h3 {
   text-align: center;
   padding-top: 3em;
 }
+.portfolio-list {
+  margin-top: -2em;
+}
 /*** Contact ***/
 #contact {
   margin: 0 auto;
-  width: 30%;
+  width: 35%;
   padding-bottom: 2em;
 }
 
@@ -323,8 +327,11 @@ hr {
 hr {
   width: 85%;
 }
+#footer-left {
+  padding-left: 1em;
+}
 #footer-left li {
-  padding-left: 6em;
+  padding-left: 3.5em;
   margin: 0 auto;
   font-weight: bolder;
 }
@@ -335,7 +342,7 @@ hr {
   font-weight: bolder;
 }
 #footer-right {
-  padding-right: 6em;
+  padding-right: 5em;
 }
 
 /*** Clear Fix ***/
