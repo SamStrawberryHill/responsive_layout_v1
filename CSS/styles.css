@@ -233,16 +233,12 @@ hr {
   margin: 0 auto;
   font-weight: bolder;
 }
-.footer-nav li:first-child {
-  padding-right: 2em;
-}
 .footer-nav li {
   display: inline-block;
-  float: right;
   padding-left: 1em;
   margin: 0 auto;
   font-weight: bolder;
-  color: 000;
+  color: #000;
 }
 /*** Clear Fix ***/
 .group::after {
@@ -330,12 +326,8 @@ hr {
   margin: 0 auto;
   font-weight: bolder;
 }
-.footer-nav li:first-child {
-  padding-right: 6em;
-}
 .footer-nav li {
   display: inline-block;
-  float: right;
   padding-left: 1em;
   margin: 0 auto;
   font-weight: bolder;
