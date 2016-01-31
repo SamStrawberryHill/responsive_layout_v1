@@ -138,7 +138,7 @@ hr {
 }
 #footer-right {
   float: right;
-  padding-right: 1em;
+  padding-right: 3em;
   padding-top: 1em;
   padding-bottom: 3em;
 }
@@ -253,9 +253,11 @@ hr {
   float: left;
   margin: 16px 16px 16px 0px;
   padding: 0;
+  padding-left: 2em;
 }
 .main-nav {
   float: right;
+  padding-right: 3em;
 }
 .main-nav li {
   display: inline-block;
@@ -331,6 +333,9 @@ hr {
   padding-left: 1em;
   margin: 0 auto;
   font-weight: bolder;
+}
+#footer-right {
+  padding-right: 6em;
 }
 
 /*** Clear Fix ***/
