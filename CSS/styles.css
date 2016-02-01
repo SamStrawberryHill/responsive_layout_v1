@@ -145,14 +145,12 @@ hr {
   text-decoration: none;
   color: #000;
 }
-/****************** Media Queries ********/
-@media screen and (max-width: 414px) {
-/*** Footer ***/
 .footer-nav li {
   display: none;
   visibility: hidden;
 }
-}
+/****************** Media Queries ********/
+
 @media only screen and (min-width: 768px),
        only screen and (min-width: 700px) and (orientation: landscape) {
 /*** Navigation ***/
@@ -245,6 +243,7 @@ hr {
   margin: 0 auto;
   font-weight: bolder;
   color: #000;
+  visibility: visible;
 }
 /*** Clear Fix ***/
 .group::after {
